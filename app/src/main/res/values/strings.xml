@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+
+    <!--strings for the names that need be displayed in the app bar of the activities
+    such that the users knows in which activity he currently is-->
+    <string name="home">Home</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="search">Search</string>
+    <string name="current">Now playing</string>
+    <!--description of the home screen -->
+    <string name="home_description">Welcome to the Music App !\nSelect your category at the bottom of the screen or press the Currently playing
+    field to go the current song.</string>
+    <!-- current artist-->
+    <string name="greenday">Green Day</string>
+    <!-- current song-->
+    <string name="revradio">Revolution Radio</string>
+
+    <!-- string for the currently playing text above the album image-->
+    <string name="current_song">Currently playing</string>
+
+    <!-- description of the artist page -->
+    <string name="artist_description">On this page, the user can scroll between all the artists from which he has songs on his phone.
+    Clicking on an artist should open a new screen (new activity) with all the songs of the selected artist. Clicking on the album
+    or text on the bottom opens the currently playing activity.</string>
+
+    <!-- description of the songs page -->
+    <string name="songs_description">On this page, the user can scroll between all the songs he has on his phone.
+    Clicking on a song should open the Currently playing activity and starts playing the song. Clicking on the album
+    or text on the bottom opens the currently playing activity.</string>
+
+    <!-- description of the albums page -->
+    <string name="albums_description">On this page, the user can scroll between all the albums from which he has
+        songs on his phone. Clicking on an album should open a new activity and shows all the songs of the album
+        he has on his phone. Clicking on the album or text on the bottom opens the currently playing activity.</string>
+
+    <!-- description of the search page -->
+    <string name="search_description">On this page, the user can search for songs, artists or albums.  Clicking on the album
+    or text on the bottom opens the currently playing activity.</string>
+
+    <!-- current song field to show on the pages songs,artists,albums and search, such that the user sees
+    which song he is currently listening to -->
+    <string name="current_song_other_pages">Currently playing\nGreen Day\nRevolution Radio</string>
+
+
+</resources>

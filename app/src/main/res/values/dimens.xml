@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- dimensions of the image in the home screen-->
+    <dimen name="image">150dp</dimen>
+
+    <!-- dimensions of the image in the curently playing screen-->
+    <dimen name="image_now">400dp</dimen>
+
+    <!-- margin around the previous, play and next buttons-->
+    <dimen name="buttons">16dp</dimen>
+
+    <!-- dimensions of the image in the other pages-->
+    <dimen name="image_other_pages">80dp</dimen>
+</resources>
