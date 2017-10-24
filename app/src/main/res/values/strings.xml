@@ -39,9 +39,4 @@
     <string name="search_description">On this page, the user can search for songs, artists or albums.  Clicking on the album
     or text on the bottom opens the currently playing activity.</string>
 
-    <!-- current song field to show on the pages songs,artists,albums and search, such that the user sees
-    which song he is currently listening to -->
-    <string name="current_song_other_pages">Currently playing\nGreen Day\nRevolution Radio</string>
-
-
 </resources>

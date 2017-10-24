@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 public class Search extends AppCompatActivity {
 
@@ -14,7 +15,7 @@ public class Search extends AppCompatActivity {
         setContentView(R.layout.activity_search);
         // find the viewgroup corresponding with the currently playing field and open the
         // CurrentlyPlaying activity when this View is clicked
-        LinearLayout currentSong = (LinearLayout) findViewById(R.id.now_playing);
+        RelativeLayout currentSong = (RelativeLayout) findViewById(R.id.now_playing);
         currentSong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

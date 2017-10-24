@@ -7,7 +7,7 @@
     <LinearLayout
         android:id="@+id/activity_currently_playing"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context="com.example.android.musicalstructure.CurrentlyPlaying">
 
@@ -18,50 +18,58 @@
             android:src="@drawable/revradio"
             android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
-        <TextView
-            android:textColor="@android:color/black"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/greenday" />
-
-        <TextView
-            android:textColor="@android:color/black"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/revradio" />
-
         <LinearLayout
 
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/buttons">
+            android:orientation="vertical">
 
-            <ImageView
-                android:clickable="true"
-                android:id="@+id/prev"
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/greenday" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="@string/revradio" />
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/prev" />
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/buttons">
 
-            <ImageView
-                android:clickable="true"
-                android:id="@+id/play"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/play" />
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/prev"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@mipmap/prev" />
 
-            <ImageView
-                android:clickable="true"
-                android:id="@+id/next"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/next" />
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/play"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@mipmap/play" />
+
+                <ImageView
+                    android:clickable="true"
+                    android:id="@+id/next"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@mipmap/next" />
+            </LinearLayout>
+
         </LinearLayout>
 
     </LinearLayout>
-
 
 </ScrollView>
